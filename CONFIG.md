@@ -2,7 +2,7 @@
 
 Adding another revanced app is as easy as this:
 ```toml
-[Some-App]
+[App Name]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
 # or uptodown-dlurl = "https://app.en.uptodown.com/android"
 # or apkmonk-dlurl = "https://www.apkmonk.com/app/com.app.app/"
