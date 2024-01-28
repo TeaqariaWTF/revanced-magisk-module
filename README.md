@@ -10,6 +10,7 @@ Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube
 #### ReVanced eXtended
 But, if you're interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
 
+
 <details><summary><big>Features</big></summary>
 <ul>
  <li>Support all present and future ReVanced apps</li>
