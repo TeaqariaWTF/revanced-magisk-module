@@ -143,7 +143,7 @@ for table_name in $(toml_get_table_names); do
 	app_args[dpi]=$(toml_get "$t" apkmirror-dpi) || app_args[dpi]="nodpi"
 	table_name_f=${table_name,,}
 	table_name_f=${table_name_f// /-}
-	app_args[module_prop_name]=$(toml_get "$t" module-prop-name) || app_args[module_prop_name]="${table_name_f}-jhc"
+	app_args[module_prop_name]=$(toml_get "$t" module-prop-name) || app_args[module_prop_name]="${table_name_f}-x"
 
 	if [ "${app_args[arch]}" = both ]; then
 		app_args[table]="$table_name (arm64-v8a)"
@@ -166,9 +166,9 @@ wait
 rm -rf temp/tmp.*
 if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
 
-log "\nInstall [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music"
-log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store"
-log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)"
+log "\nInstall [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YouTube Music."
+log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YouTube from Play Store."
+
 log "\nChangelog:"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
