@@ -8,7 +8,7 @@
 Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YouTube Music from Play Store if you are using Magisk modules.
 
 #### ReVanced eXtended
-But, if you're interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
+But, if you are interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
 
 
 <details><summary><big>Features</big></summary>
