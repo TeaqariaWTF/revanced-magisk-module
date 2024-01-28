@@ -49,6 +49,6 @@ bash <(curl -sSf https://raw.githubusercontent.com/AbakNacchan/revanced-magisk-m
 ### On Desktop
 ```console
 $ git clone https://github.com/AbakNacchan/revanced-magisk-module
-$ cd revanced-extended
+$ cd revanced-magisk-module
 $ ./build.sh
 ```
