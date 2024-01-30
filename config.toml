@@ -7,16 +7,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [Music]
 version = "auto"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-apkmirror-arch = "arm64-v8a"
+apkmirror-dlurl = "https://wwww.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 build-mode = "both"
-included-patches = "'Permanent shuffle' 'Permanent repeat'"
+included-patches = "'Permanent repeat'"
 
 [YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://wwww.pkmirror.com/apk/google-inc/youtube/"
 apkmirror-arch = "arm64-v8a"
-arch = "arm64-v8a"
 build-mode = "both"
 version = "19.04.34"
 included-patches = "'Enable slide to seek' 'Remove player controls background'"
