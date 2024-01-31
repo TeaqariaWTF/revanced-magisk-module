@@ -50,8 +50,6 @@ included-patches = "'Some Patch' 'Some Other Patch'"
 exclusive-patches = false
 # Exclude all patches by default ― default: false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/inc/app"
-uptodown-dlurl = "https://app.en.uptodown.com/android"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.app.app/"
 module-prop-name = "app-magisk"
 # Magisk module prop name.
 apkmirror-dpi = "360-480dpi"
