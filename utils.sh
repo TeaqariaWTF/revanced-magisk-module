@@ -172,7 +172,7 @@ _req() {
 		mv -f "$dlp" "$2"
 	fi
 }
-req() { _req "$1" "$2" "User-Agent: Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.143 Mobile Safari/537.36"; }
+req() { _req "$1" "$2" "User-Agent: Mozilla/5.0 (Linux; Android 14) Gecko/20100101 Chrome/121.0.6167.143 Firefox/122.0"; }
 gh_req() { _req "$1" "$2" "$GH_HEADER"; }
 
 log() { echo -e "$1  " >>"build.md"; }
