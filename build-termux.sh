@@ -30,7 +30,7 @@ if [ -d revanced-magisk-module ]; then
 	pr "Checking for revanced-magisk-module updates"
 	git -C revanced-magisk-module fetch
 	if git -C revanced-magisk-module status | grep -q 'is behind'; then
-		pr "revanced-magisk-module already is not synced with upstream."
+		pr "revanced-magisk-module is not synced with upstream."
 		pr "Cloning revanced-magisk-module. config.toml will be preserved."
 		cp -f revanced-magisk-module/config.toml .
 		rm -rf revanced-magisk-module
