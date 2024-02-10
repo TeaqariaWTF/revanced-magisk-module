@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/setup-java@v4
         with:
-          distribution: "zulu"
-          java-version: "17"
+          distribution: "adopst"
+          java-version: "21"
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -60,14 +60,19 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
+      - name: Get Date
+        id: date
+        run: |
+          echo "DATE=$(date +%Y.%m.%d)" >> "$GITHUB_OUTPUT"
+
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@2.7.0
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./build/*
-          release_name: ReVanced
-          tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
+          release_name: ReVanced v${{ steps.date.outputs.DATE }}
+          tag: v${{ steps.date.outputs.DATE }}
           file_glob: true
           overwrite: true
 
