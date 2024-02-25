@@ -85,11 +85,11 @@ for table_name in $(toml_get_table_names); do
 		# if ! RVP="$(get_rv_prebuilts "$integrations_src" "$patches_src" "$integrations_ver" "$patches_ver" "$cli_src" "$cli_ver")"; then
 			# abort "could not download rv prebuilts"
 		# fi
-		read -r rv_cli_jar rv_integrations_apk rv_patches_jar rv_patches_json <<<"$RVP"
-		app_args[cli]=$rv_cli_jar
-		app_args[integ]=$rv_integrations_apk
-		app_args[ptjar]=$rv_patches_jar
-		app_args[ptjs]=$rv_patches_json
+		# read -r rv_cli_jar rv_integrations_apk rv_patches_jar rv_patches_json <<<"$RVP"
+		# app_args[cli]=$rv_cli_jar
+		# app_args[integ]=$rv_integrations_apk
+		# app_args[ptjar]=$rv_patches_jar
+		# app_args[ptjs]=$rv_patches_json
 	# fi
 	if [[ -v cliriplib[${app_args[cli]}] ]]; then app_args[riplib]=${cliriplib[${app_args[cli]}]}; else
 		if [[ $(java -jar "${app_args[cli]}" patch 2>&1) == *rip-lib* ]]; then
