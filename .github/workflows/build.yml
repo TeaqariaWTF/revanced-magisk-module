@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/setup-java@v4
         with:
-          distribution: "adopt"
+          distribution: "temurin"
           java-version: "21"
 
       - name: Checkout
@@ -64,7 +64,7 @@ jobs:
           cp -f build.md build.tmp
 
       - name: Upload modules to release
-        uses: svenstaro/upload-release-action@2.7.0
+        uses: svenstaro/upload-release-action@2.9.0
         with:
           body: ${{ steps.get_output.outputs.BUILD_LOG }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
