@@ -1,6 +1,7 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-# integrations-version = ""
-# patches-version = ""
+# integrations-version = "v1.4.0-dev.4"
+# patches-version = "v4.3.0-dev.5"
+# cli-version = "v4.4.1-dev.1"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/AbakNacchan/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -8,15 +9,23 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 # you can use rvmm-config-gen to generate a config
 
 [Music]
-version = "latest"
+# enabled = false
+version = "auto"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 build-mode = "both"
-included-patches = "'Permanent repeat'"
+# included-patches = "'Permanent repeat'"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "both"
-version = "latest"
-included-patches = "'Enable slide to seek' 'Remove player controls background'"
+version = "19.05.36"
+# included-patches = "'Enable slide to seek' 'Remove player controls background'"
+# excluded-patches = "'Custom branding name YouTube' 'Announcements' 'Enable debugging' 'Ambient mode switch'"
+
+[Twitter]
+# enabled = false
+apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
+arch = "arm64-v8a"
+version = "auto"

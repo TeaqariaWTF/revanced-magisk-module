@@ -1,13 +1,4 @@
 [ {
-    "patchName" : "Theme",
-    "options" : [ {
-      "key" : "DarkThemeBackgroundColor",
-      "value" : "@android:color/black"
-    }, {
-      "key" : "LightThemeBackgroundColor",
-      "value" : "@android:color/white"
-    } ]
-  }, {
     "patchName" : "Overlay buttons",
     "options" : [ {
       "key" : "OutlineIcon",
