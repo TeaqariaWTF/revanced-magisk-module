@@ -13,6 +13,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 version = "6.42.52"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
+apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 # included-patches = "'Permanent repeat'"
 
