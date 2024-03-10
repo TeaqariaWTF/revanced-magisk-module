@@ -10,7 +10,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [Music]
 # enabled = false
-version = "6.42.52"
+version = "latest"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 apkmirror-arch = "arm64-v8a"
@@ -18,7 +18,7 @@ build-mode = "both"
 # included-patches = "'Permanent repeat'"
 
 [YouTube]
-enabled = false
+# enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "both"
@@ -27,7 +27,7 @@ version = "19.05.36"
 # excluded-patches = "'Custom branding name YouTube' 'Announcements' 'Enable debugging' 'Ambient mode switch'"
 
 [Twitter]
-enabled = false
+# enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
 arch = "arm64-v8a"
 version = "auto"
