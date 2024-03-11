@@ -7,7 +7,7 @@
 
 
 #### ReVanced eXtended
-If you are interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
+If you are interested on using `ReVanced eXtended` instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
 
 
 <details><summary><big>Features</big></summary>
