@@ -5,10 +5,9 @@
 
 ※ Get the [latest CI release](https://github.com/AbakNacchan/revanced-magisk-module/releases) ※
 
-Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YouTube Music from Play Store if you are using Magisk modules.
 
 #### ReVanced eXtended
-But, if you are interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
+If you are interested on using ReVanced eXtended instead, you always can go and start [here](https://github.com/AbakNacchan/revanced-extended).
 
 
 <details><summary><big>Features</big></summary>
@@ -19,14 +18,14 @@ But, if you are interested on using ReVanced eXtended instead, you always can go
  <li>Optimize APKs and modules for size</li>
  <li>Modules</li>
     <ul>
-     <li>recompile invalidated odex for faster usage</li>
-     <li>receive updates from Magisk app</li>
-     <li>do not break safetynet or trigger root detections</li>
-     <li>Installation handling for the correct version of the stock app and others</li>
-     <li>support Magisk and KernelSU</li>
+     <li>Provide support for ReVanced apps, both current and upcoming</li>
+     <li>Enable the creation of Magisk modules and non-root APKs</li>
+     <li>Offer regular updates with the newest versions of apps and patches</li>
+     <li>Reduce the size of APKs and modules for optimization</li>
+     <li>Compatible with Magisk and KernelSU</li>
     </ul>
 </ul>
-Note that the <a href="../../actions/workflows/ci.yml">CI workflow</a> is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.
+Be aware that the <a href="../../actions/workflows/ci.yml">CI workflow</a> automatically builds the modules and APKs every day using GitHub Actions, as long as there is a change in ReVanced patches. You might want to turn it off.
 </details>
 
 ## To include/exclude patches or to patch other apps
