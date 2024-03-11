@@ -22,9 +22,9 @@ build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 arch = "arm64-v8a"
 build-mode = "both"
-version = "19.06.39"
+version = "19.05.36"
 # included-patches = "'Enable slide to seek' 'Remove player controls background'"
-excluded-patches = "'Change player flyout panel toggles' 'HDR auto brightness' 'Swipe controls'"
+# excluded-patches = "'Change player flyout panel toggles' 'HDR auto brightness' 'Swipe controls'"
 
 [Twitter]
 # enabled = false
