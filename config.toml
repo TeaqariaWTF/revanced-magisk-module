@@ -24,7 +24,7 @@ arch = "arm64-v8a"
 build-mode = "both"
 version = "19.05.36"
 # included-patches = "'Enable slide to seek' 'Remove player controls background'"
-# excluded-patches = "'Custom branding name YouTube' 'Announcements' 'Enable debugging' 'Ambient mode switch'"
+excluded-patches = "'Change player flyout panel toggles' 'HDR auto brightness' 'Swipe controls'"
 
 [Twitter]
 # enabled = false
