@@ -167,6 +167,8 @@ if [ "$youtube_mode" != apk ] || [ "$music_mode" != apk ]; then
 fi
 log "\nChangelog:"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
+log ""
+log "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8VRK0S)"
 
 SKIPPED=$(cat $TEMP_DIR/skipped 2>/dev/null || :)
 if [ -n "$SKIPPED" ]; then
