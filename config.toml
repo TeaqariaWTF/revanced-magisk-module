@@ -1,6 +1,6 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-integrations-version = "v1.8.0-dev.5"
-patches-version = "v4.7.0-dev.5"
+integrations-version = "v1.8.0-dev.7"
+patches-version = "v4.7.0-dev.6"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/AbakNacchan/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
