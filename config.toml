@@ -9,7 +9,7 @@ patches-version = "v4.7.0-dev.9"
 
 [Music]
 # enabled = false
-version = "auto"
+version = "6.46.53"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 apkmirror-arch = "arm64-v8a"
